@@ -1,0 +1,68 @@
+#divCuerpo{
+	width : 70%;
+    margin : auto;
+	background-color: #E0F8F7;
+}
+
+h1 {
+    color: #01DF01;
+	  font-family: verdana;
+    font-size: 300%;
+}
+
+p {
+    color:green;
+	font-family: courier;
+    font-size: 160%;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.flat-table {
+
+}
+  table {
+  background: rgb(112, 196, 105);
+}
+
+  th {
+    background-color: rgb(112, 196, 105);
+    color: white;
+    font-weight: normal;
+     text-align: center;
+  }
+  td {
+    background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+   text-align: center;
+  }
+
+		

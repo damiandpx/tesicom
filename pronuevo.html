@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+
+
+
+<title>TesiCom</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+ <div id="divCuerpo">
+<center> <h1>Agregar producto</h1></center>
+
+	<form name="nuevo_producto" method="POST" action="guardar_producto.php">
+			<center>
+			<table class="flat-table" border=0 width="95%">
+				<tr>
+					
+					<td width="20"><b>Codigo</b></td>
+					<td width="30"><input type="text" name="id" size="65" /></td>
+				</tr>
+				<tr>
+										<td width="20"><b>Tipo</b></td>
+										
+
+					<td width="30">
+					<select width="50%" name="tipo" size="1" style="width:64%">
+				<option selected value="0"> Elige una opción </option>
+<option  value="Escritorio">Escritorio</option>
+<option  value="Todo en uno">Todo en uno</option>
+<option  value="Laptop">Laptop</option>
+<option  value="Netbook">Netbook</option>
+<option  value="Tablet">Tablet</option>
+<option  value="Phablet">Phablet</option>
+ <option  value="Estacion de trabajo">Estacion de trabajo</option>
+  <option value="Servidor">Servidor</option>
+</select>
+					
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="20"><b>Marca</b></td>
+					<td width="30">
+					<select width="50%" name="marca" size="1" style="width:64%">
+				<option selected value="0"> Elige una opción </option>
+		<option  value="Hp">			Hp </option>
+<option  value="Compaq">Compaq </option>
+<option  value="Asus">Asus </option>
+<option  value="Lg">Lg </option>
+<option  value="Lenovo">Lenovo </option>
+<option  value="Acer">Acer </option>
+<option  value="Vaio">Vaio </option>
+<option  value="Alienware">Alienware </option>
+<option  value="Toshiba">Toshiba </option>
+<option  value="Dell">Dell </option>
+<option  value="Gateway">Gateway </option>
+<option  value="Fijitsu">Fijitsu </option>
+<option  value="Apple">Apple </option>
+<option  value="Lenovo">Lenovo</option>
+<option  value="Everex">Everex </option>
+<option  value="SimpleTech">SimpleTech </option>
+<option  value="Panasonic">Panasonic </option>
+<option  value="Systemax">Systemax </option>
+<option  value="Averatec">Averatec </option>
+<option  value="Oliveti">Oliveti </option>
+<option  value="Sony">Sony </option>
+<option  value="Samsung">Samsung </option>
+<option  value="Lanix">Lanix </option>
+<option  value="IBM">IBM</option>
+<option  value="BenQ">BenQ</option>
+<option  value="Otro">Otro</option>
+</select>
+					
+					</td>
+					
+					
+			
+				</tr>
+				
+				<tr>
+					<td width="20"><b>Modelo</b></td>
+					<td width="30"><input type="text" name="modelo" size="65"  /></td>
+				</tr>
+				
+				<tr>
+					<td width="20"><b>Caracteristicas</b></td>
+					<td width="30"><input type="text" name="caracteristicas" size="85"  /></td>
+				</tr>
+				
+				<tr>
+					<td width="20"><b>Precio</b></td>
+					<td width="30"><input type="text" name="precio" size="65"  /></td>
+				</tr>
+				
+				<tr>
+					<td width="20"><b>Precio venta</b></td>
+					<td width="30"><input type="text" name="pventa" size="65"  /></td>
+				</tr>
+				
+				<tr>
+				
+					<td width="20"><b>Existencia</b></td>
+					<td width="30"><input type="text" name="existencia" size="65" /></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><center><input type="submit" name="Guardar" value="Guardar"/>
+					<input type="button" value="Cancelar" onClick=" window.location.href='productos.php' ">
+					</td>
+				</tr>
+			</table>
+			</center>
+		</form>
+		
+</center>
+
+
+
+
+ </div>
+
+</body>
+
+
+
+
+</html>

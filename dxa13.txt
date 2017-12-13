@@ -1,0 +1,37 @@
+<?php 
+	
+	require('conexion.php');
+	
+	$vendedor=$_POST['usuarioactual'];
+	$codigoproducto=$_POST['dx1'];
+	$marca=$_POST['dx2'];
+	$modelo=$_POST['dx3'];
+	$nopiezas=$_POST['dx4'];
+	$precioun=$_POST['dx5'];
+	$garantia=$_POST['garantia'];
+	$fecha=$_POST['dx'];
+	$nombrecliente=$_POST['nombre'];
+	$totalpagar=$_POST['dx6'];
+	
+	//echo " </br> vemdedor ".$vendedor;
+	//echo " </br> codigoproducto ".$codigoproducto;
+	//echo " </br> marca ".$marca;
+	//echo " </br> modelo ".$modelo;
+//	echo " </br> nopiezas ".$nopiezas;
+	//echo " </br> precio ".$precioun;
+	//echo " </br> garantia ".$garantia;
+//echo " </br> fecha ".$fecha;
+//echo " </br> cliente ".$nombrecliente;
+//echo " </br> pago ".$totalpagar;
+	
+$query="INSERT INTO ventas (vendedor, codigoproducto, marca, modelo, nopiezas, precioun, garantia, fecha, nombrecliente, totalpagar) 
+VALUES ('$vendedor','$codigoproducto','$marca','$modelo','$nopiezas','$precioun','$garantia','$fecha','$nombrecliente','$totalpagar')";
+			
+	$resultado=$mysqli->query($query);
+	
+
+	echo ' <script language="javascript">alert("Compra registrada con exito");</script> ';
+	echo "<script>location.href='caja.php'</script>";
+
+?>
+

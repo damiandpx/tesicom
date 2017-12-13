@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+
+
+
+<title>TesiCom</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+ <div id="divCuerpo">
+<center> <h1>Agregar empleado</h1></center>
+
+	<form name="nuevo_producto" method="POST" action="guardar_empleado.php">
+			<center>
+			<table class="flat-table" border=0 width="95%">
+				<tr>
+					
+					<td width="20"><b>Codigo</b></td>
+					<td width="30"><input type="text" name="id" size="65" /></td>
+				</tr>
+				<tr>
+										<td width="20"><b>Nombre</b></td>
+										
+
+				<td width="30"><input type="text" name="idusuario" size="65" /></td>
+					
+										</td>
+				</tr>
+				
+				<tr>
+										<td width="20"><b>Clave</b></td>
+										
+
+				<td width="30"><input type="text" name="clave" size="65" /></td>
+					
+										</td>
+				</tr>
+				
+				<tr>
+										<td width="20"><b>Telefono</b></td>
+										
+
+				<td width="30"><input type="text" name="telefono" size="65" /></td>
+					
+										</td>
+				</tr>
+				
+				<tr>
+										<td width="20"><b>Estado</b></td>
+										
+
+				<td width="30"><input type="text" name="estado" size="65" /></td>
+					
+										</td>
+				</tr>
+				
+				
+				
+				<tr>
+					<td width="20"><b>Cargo</b></td>
+					<td width="30"><select width="50%" name="cargo" size="1" style="width:64%">
+				<option selected value="0"> Elige una opción </option>
+<option  value="Vendedor">Vendedor</option>
+<option  value="Almacenista">Almacenista</option>
+<option  value="Vigilante">Vigilante</option>
+<option  value="Intendencia">Intendencia </option>
+<option  value="Ayudante General">Ayudante General</option>
+<option  value="Administrativo">Administrativo</option>
+</select>
+					
+					</td>
+					
+					
+			
+				</tr>
+				
+				<tr>
+					<td width="20"><b>Salario</b></td>
+					<td width="30"><input type="text" name="salario" size="65"  /></td>
+				</tr>
+				
+				<tr>
+					<td width="20"><b>Direccion</b></td>
+					<td width="30"><input type="text" name="direccion" size="85"  /></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><center><input type="submit" name="Guardar" value="Guardar"/>
+					<input type="button" value="Cancelar" onClick=" window.location.href='empleados.php' ">
+					</td>
+				</tr>
+			</table>
+			</center>
+		</form>
+		
+</center>
+
+
+
+
+ </div>
+
+</body>
+
+
+
+
+</html>
